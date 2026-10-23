@@ -1,0 +1,19 @@
+{
+  "id": "ouallalimohamedamine/gpu-check-dl-lab2",
+  "id_no": 140460391,
+  "title": "gpu-check-dl-lab2",
+  "code_file": "gpu-check-dl-lab2.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+  "machine_shape": "NvidiaTeslaT4"
+}

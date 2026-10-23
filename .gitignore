@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data (downloaded, not committed)
+data/
+*.zip
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Secrets
+.kaggle/
+*access_token*
+token.json
+.env
+
+# Logs / OS
+*.log
+*.err
+.DS_Store
+Thumbs.db

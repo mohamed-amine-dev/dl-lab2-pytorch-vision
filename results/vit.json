@@ -1,0 +1,36 @@
+{
+  "model": "ViT",
+  "device": "cpu",
+  "epochs": 3,
+  "batch_size": 128,
+  "optimizer": "AdamW(lr=3e-4)",
+  "train_images": 20000,
+  "test_images": 10000,
+  "params_total": 139018,
+  "train_time_sec": 39.198808670043945,
+  "test_loss": null,
+  "test_acc": 0.8401,
+  "test_f1": 0.8399333332683725,
+  "inference_ms_per_image": 0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.57795,
+      "test_acc": 0.7223,
+      "train_loss": 1.2741494071960449
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.77855,
+      "test_acc": 0.8104,
+      "train_loss": 0.7056149826049805
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.83865,
+      "test_acc": 0.8401,
+      "train_loss": 0.5112527044773102
+    }
+  ],
+  "notes": "patch7,dim64,heads4,depth4,cls+pos"
+}

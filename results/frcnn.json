@@ -1,0 +1,22 @@
+{
+  "model": "Faster R-CNN",
+  "device": "cpu",
+  "epochs": 1,
+  "batch_size": 4,
+  "optimizer": "SGD(lr=0.005,momentum=0.9)",
+  "train_images": 2000,
+  "test_images": 1000,
+  "params_total": 18976354,
+  "train_time_sec": 98.2104012966156,
+  "test_loss": null,
+  "test_acc": 0.768,
+  "test_f1": 0.7197915484129942,
+  "inference_ms_per_image": 0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 3.0438988087177274
+    }
+  ],
+  "notes": "boxes from ink pixels, 11 classes, highest box used"
+}

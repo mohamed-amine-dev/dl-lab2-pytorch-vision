@@ -1,0 +1,22 @@
+{
+  "model": "VGG16",
+  "device": "cpu",
+  "epochs": 1,
+  "batch_size": 32,
+  "optimizer": "Adam(classifier,lr=1e-3)",
+  "train_images": 5000,
+  "test_images": 2000,
+  "params_total": 134301514,
+  "train_time_sec": 270.5914475917816,
+  "test_loss": null,
+  "test_acc": 0.788,
+  "test_f1": 0.788098880887708,
+  "inference_ms_per_image": 0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.7204,
+      "test_acc": 0.788
+    }
+  ]
+}

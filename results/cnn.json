@@ -1,0 +1,52 @@
+{
+  "model": "CNN",
+  "device": "cpu",
+  "epochs": 5,
+  "batch_size": 256,
+  "optimizer": "Adam(lr=1e-3,weight_decay=1e-4)",
+  "train_images": 60000,
+  "test_images": 10000,
+  "params_total": 421642,
+  "train_time_sec": 324.94976925849915,
+  "test_loss": 0.029286357373604553,
+  "test_acc": 0.9902,
+  "test_f1": 0.9901340840397571,
+  "inference_ms_per_image": 0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3115656655649344,
+      "train_acc": 0.9039833333333334,
+      "test_loss": 0.07177050389125943,
+      "test_acc": 0.976
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.09132752648989359,
+      "train_acc": 0.9724166666666667,
+      "test_loss": 0.04029149108380079,
+      "test_acc": 0.9866
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.06802139822642009,
+      "train_acc": 0.9795333333333334,
+      "test_loss": 0.0350616285637021,
+      "test_acc": 0.9884
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.05485740978270769,
+      "train_acc": 0.9832333333333333,
+      "test_loss": 0.035866740562045016,
+      "test_acc": 0.9883
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.04754371060927709,
+      "train_acc": 0.9858666666666667,
+      "test_loss": 0.029286357373604553,
+      "test_acc": 0.9902
+    }
+  ]
+}

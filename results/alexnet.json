@@ -1,0 +1,22 @@
+{
+  "model": "AlexNet",
+  "device": "cpu",
+  "epochs": 1,
+  "batch_size": 32,
+  "optimizer": "Adam(classifier,lr=1e-3)",
+  "train_images": 5000,
+  "test_images": 2000,
+  "params_total": 57044810,
+  "train_time_sec": 58.86268925666809,
+  "test_loss": null,
+  "test_acc": 0.8665,
+  "test_f1": 0.868037367833406,
+  "inference_ms_per_image": 0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_acc": 0.7024,
+      "test_acc": 0.8665
+    }
+  ]
+}
